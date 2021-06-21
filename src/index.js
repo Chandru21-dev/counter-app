@@ -1,17 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from "./components/navbar"
-import Nxt from "./components/nxt"
-import Adder from "./components/adder"
+import App from "./components/App"
 
 ReactDOM.render(
   <div>
-<Navbar />
-<Nxt />
-<Adder />
-<Adder />
-<Adder />
-<Adder />
+  <App />
   </div>
   ,
   document.getElementById('root')
